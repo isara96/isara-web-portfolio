@@ -1,0 +1,22 @@
+{
+  "name": "isara-web-portfolio",
+  "version": "1.0.0",
+  "description": "Isara Web Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isara96/isara-web-portfolio.git"
+  },
+  "author": "Isara Arunanondchai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isara96/isara-web-portfolio/issues"
+  },
+  "homepage": "https://github.com/isara96/isara-web-portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
