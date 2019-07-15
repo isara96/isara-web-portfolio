@@ -74,7 +74,12 @@ main {
     }
 }
 
+.aboutMeText {
+    margin-bottom: 20px;
+}
+
 .about-info {
+    margin-top: 25px;
     display: grid;
     grid-gap: 30px;
     grid-template-areas:
@@ -110,6 +115,7 @@ main {
         background: lighten($primary-color, 5);
         padding: 0.5rem;
         border-bottom: $secondary-color 5px solid;
+        border-radius: 15px;
     }    
 }
 
